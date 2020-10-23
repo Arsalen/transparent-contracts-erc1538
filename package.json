@@ -1,0 +1,30 @@
+{
+  "name": "transparent-contracts-erc1538",
+  "version": "1.0.0",
+  "description": "A reference implementation of [ERC1538](https://eips.ethereum.org/EIPS/eip-1538) on **ropsten** with migration scripts and a sample calling the `updateContract` function that adds the ***ERC721*** standard functions.",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arsalen/transparent-contracts-erc1538.git"
+  },
+  "keywords": [
+    "ERC-1538"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arsalen/transparent-contracts-erc1538/issues"
+  },
+  "homepage": "https://github.com/Arsalen/transparent-contracts-erc1538#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "web3": "^1.3.0"
+  }
+}
