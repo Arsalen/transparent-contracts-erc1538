@@ -3,3 +3,4 @@ build/
 .idea/
 transparent-contracts-erc1538.iml
 package-lock.json
+.env
